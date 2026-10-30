@@ -9,28 +9,30 @@
         <meta name="width=device-width">
         <meta name="description" content="Petal Tips, a cozy nail studio where beauty, creativity, and relaxation come together...">
         <style>
-        footer{display: flex; }
         body{background-color: #651B2A; color: #E8BFB5;}
         .Navbar{justify-content: center; display: flex; gap: 50px; background-color: #50131f; padding: 15px 20px; }
         .Navbar a{color: #B99A93; text-decoration: none; font-size: 17px;}
-        .btn{padding: 10px 20px; background-color: #D9A58F; color: #50131f; border-radius: 10px; }
+        .btn{padding: 10px 20px; background-color: #d4987e; color: #50131f; border-radius: 10px }
         .About{align-items: center; color: #E8BFB5;  display: flex; justify-content: space-between; gap: 30px; padding: 20px; margin-top: 40px;}
         .About-text h1{font-size: 45px;}
         .About-text h2{font-size: 35px;}
         .About-text p{font-size: 23px;}
         .about-image{width: auto; height: 550px; border-radius: 50px; display: flex; }
+        Footer{padding: 30px;}
+        .footer-C{display: flex; gap: 30px; }
+        .footer-section{flex: 1; }
         </style>
 
 </head>
 <body>
     <header>
             <nav class="Navbar">
-            <a href="Mini HTML doc.html">Home</a>
-             <a href="Aboutus.html">About us</a>
+            <a href="index.html">Home</a>
+            <a href="Aboutus.html">About us</a>
             <a href="Servises.html">Services</a>
             <a href="Gallery.html">Gallery</a>
             <a href="Contact.html">Contact</a>
-           <a href="Contact.html" class="btn"><button> Book Appointment</button></a> 
+           <a href="Contact.html" class="btn"> Book Appointment</a> 
         </nav>
     </header>
     <main Class="About">
@@ -52,38 +54,32 @@
                 <img src="Images/Salon/N A.jpg" alt="Nail Salon">
         </section>
     </main>
-    
-    
-    
-    
-
-
-
     <br>
     <br>
-    <footer>
-    <section>
-        <h4>Contact Us</h4>
-        <pre>
-        📞 +93726183245678
-        📲 +93261749302647
-        📧 <a href="melto: Petaltips@gmail.com"></a>
-        </pre>
-    </section>
-     <Section>
-            <pre>
-                🕝 Saturday - Thursday
-                   08:00 AM - 08:00 PM
+<footer>
+    <div class="footer-C">
 
-                   Friday
-                   10:00 AM - 04:00 PM
-            </pre>
-        </Section>
-        <section>
-            <h5>Book Your Appointment</h5>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>📞 +930123456789</p>
+            <p>📲 +93261749302647</p>
+            <p>📧 hello@petaltiops.com</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Opening Hours</h3>
+            <p>🕝 Saturday - Thursday:</p>
+            <p>09:00 AM - 06:00 PM</p>
+            <p>Friday: Closed</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Book Your Appointment</h3>
             <p>Get Your Perfect look by booking your appointment now.</p>
-            <button>Book Now 📆</button>
-        </section>
+            <a href="Contact.html"><button>Book Now 📆</button></a>
+        </div>
+
+    </div>
 </footer>
 
 </body>

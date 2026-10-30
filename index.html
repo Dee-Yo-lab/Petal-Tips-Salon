@@ -8,7 +8,6 @@
         <meta name="author" content="Diba Yosufi">
         <meta name="description" content="Petal Tips, a cozy nail studio where beauty, creativity, and relaxation come together...">
     <style>
-        footer{display: flex; }
         body{background-color: #651B2A; color: #E8BFB5;}
         .Navbar{justify-content: center; display: flex; gap: 50px; background-color: #50131f; padding: 15px 20px; }
         .Navbar a{color: #B99A93; text-decoration: none; font-size: 17px;}
@@ -20,15 +19,69 @@
         .Artist p{font-size: 20px;}
         .Arti img{width: auto; height: 450px; border-radius: 20px;}
         main{border: 3cm;}
+        .main-text{text-align: center; }
         button{background-color: #D9A58F; color:#651B2A; border: none; padding: 12px 24px; font-weight: bold; font-size: 17px; }
         .pic img{width: 400px; height: 400px;}
         header{font-size: 18px;}
+
+        .About{align-items: center; color: #E8BFB5;  display: flex; justify-content: space-between; gap: 30px; padding: 20px; margin-top: 40px;}
+        .About-text h1{font-size: 45px;}
+        .About-text h2{font-size: 35px;}
+        .About-text p{font-size: 23px;}
+        .about-image{width: auto; height: 550px; border-radius: 50px; display: flex; }
+
+        .Services{text-align: center; padding: 50px;}
+        .Services h1{font-size: 55px; }
+        .intro{font-size: 18px; margin: 0 auto 40px; }
+        .Container{display: flex; align-items: center; }
+        .card img{width: auto; height: 450px; padding: 15px; border-radius: 20px; }
+        .card h2{font-size: 27px; }
+        .card p{font-size: 15px; }
+        .card h3{font-size: 22px;}
+        .Spa-special{display: flex; align-items: center; gap: 40px; margin: 80px auto 40px; padding: 30px; border-radius: 20px; }
+        .Spa-Img{display: flex; gap: 15px; }
+        .Spa-Img img{width: auto; height: 350px; border-radius: 15px; }
+        .Spa-text h2{font-size: 40px;}
+        .Spa-text p{font-size: 17px; }
+        .Spa-text h3{font-size: 28px;}
+        .Spa-text h4{font-size: 20px;}
+
+        .Gallery{text-align: center; padding: 50px; gap: 20px; display: grid; grid-template-columns: repeat(5, 1fr) ;}
+        .G-item{padding: 10px; border-radius: 15px; }
+        .G-item img{width: auto; height: 250px; border-radius: 10px; }
+        .G-item h3{font-size: 23px; text-align: center; }
+        .large-pics{padding: 15px; border-radius: 20px; }
+        .large-pics img{width: auto; height: 350px; border-radius: 25px; }
+        .large-pics h3{font-size: 25px; margin: 20px 0 15px; text-align: center; }
+        .G-head{font-size: 55px; text-align: center; }
+        .G-intro{font-size: 18px; text-align: center; }
+
+        .C-page{padding: 40px; }
+        .C-page h1{font-size: 50px; text-align: center; }
+        .C-page p{text-align: center; font-size: 20px;}
+        .Contact{display: flex; justify-content: Center; gap: 200px; }
+        .Contact-detail{width: 100%; border-collapse: collapse; margin: 20px 0 35px;}
+        .Contact-detail td{padding: 12px 8px; text-align: left; font-size: 20px; }
+        .Contact-detail th{width: 100%; font-weight: bold; font-size: 33px;}
+        .Op-hours{width: 100%; border-collapse: collapse; }
+        .Op-hours th, .Op-hours td{padding: 12px; text-align: left; font-size: 20px; }
+        .Op-hours h2{width: 100%; font-weight: bold; font-size: 35px; }
+        .Contact-form{font-size: 30px; }
+        .Contact-form form{display: flex; font-size: 30px; }
+        .contact-form button {padding: 13px; border-radius: 8px; background-color: #eab4a7; color: #561a28; font-size: 16px; font-weight: bold; }
+
+
+        Footer{padding: 30px;}
+        .footer-C{display: flex; gap: 30px; }
+        .footer-section{flex: 1; }
+
+
     </style>
     </head>
     <body>
         <br>
         <nav class="Navbar">
-            <a href="Mini HTML doc.html">Home</a>
+            <a href="index.html">Home</a>
              <a href="Aboutus.html">About us</a>
             <a href="Servises.html">Services</a>
             <a href="Gallery.html">Gallery</a>
@@ -53,52 +106,273 @@
         </article>
   
         <header>
-           <h1 style="text-align: center; font-size: 50px;"> Our Services</h1>
-            <section>
-                <p>At Petal Tips our goal is to help you find a style that feels uniquely yours.
+           <h1 style="text-align: center; font-size: 50px;"> Our Salon</h1>
+            <section class="main-text">
+                <p>At <strong>Petal Tips</strong> our goal is to help you find a style that feels uniquely yours.
 Sit back, relax, and let us give your nails a little extra love. </p> 
 <p>We offer professional manicure and pedicure services, beautiful nail painting, and a variety of elegant and colorful nail designs.</p>
             </section>
             <br>
         </header>
         <main>
-            <section>
+            <section class="main-text">
                 <p>Whether you prefer simple and natural nails and soft pastel colors...</p>
                 <Figure class="pic"> <img src="Images/Salon/N2.jpeg"; > 
                     <img src="Images/Salon/N22.jpeg";>
                 </Figure>
             </section>
-            <section> <p>Or something bold and creative...</p>
+            <section  class="main-text"> <p>Or something bold and creative...</p>
                 <figure class="pic"> <img src="Images/Salon/N1.jpeg"; > 
                 <img src="Images/Salon/N11.jpeg"; >
                 </figure> 
             </section>
+            <br>
+            <hr>
+            <br>
+                <div Class="About">
+        <section class="About-text">
+            <h1>About Petal Tips</h1>
+            <h2>Beauty in every detail</h2>
+            <p>At Petal Tips Salon, we believe that beautiful nails
+                are a little expression of your personality.
+                Our goal is to create a relaxing experience where
+                creativity, care, and beauty come together.</p>
+
+                <p>From timeless elegance to creative nail art,
+                every detail matters. We want every visit to leave
+                you feeling refreshed, confident, and inspired.</p>
+
+                <a href="Servises.html" ><button>Explore Our Services</button></a>
+        </section>
+        <section class="about-image">
+                <img src="Images/Salon/N A.jpg" alt="Nail Salon">
+        </section>
+    </div>
+<br>
+<hr>
+<br>
+        <div class="Services">
+            <h1>Our Services</h1>
+            <p Class="intro">Discover the perfect treatment for your nails.
+            From timeless elegance to creative nail art,
+            we make every detail beautiful.</p>
+            <div class="Container">
+
+                <div class="card"><img src="Images/Salon/Manicure.jpeg">
+                <h2>Classic Manicure</h2>
+                <p>Nail shaping, cuticle care, and a beautiful polish.</p>
+                <h3>15$</h3>
+                </div>
+            
+            <div class="card"><img src="Images/Salon/N 15.jpeg">
+                <h2>Gel Nails</h2>
+                <p>Glossy and long-lasting color for an Elegant Finish. </p>
+                <h3>25$</h3>
+            </div>
+
+            <div class="card"> <img src="Images/Salon/N1.jpeg">
+                <h2>Nail Art</h2>
+                <p>Beautiful designs that express your personal style.</p>
+                <h3>25$+</h3>
+            </div>
+
+            </div>
+
+            <br>
+            <br>
+            <div class="Spa-special">
+
+             <div class="Spa-Img"> <img src="Images/Salon/Spa 1.jpeg">
+                <img src="Images/Salon/Spa 2.jpeg">
+                 </div>
+                 <div Class="Spa-text">
+                <h2>Spa Manicure</h2>
+                <p>A relaxing hand treatment for a little extra care.</p>
+                <h3>35$+</h3>
+                <h4>Midweek Special</h4>
+                <p>Enjoy 50% off every Tuesday and Wednesday!</p>
+           </div>
+
+            </div>
+        </div>
+<br>
+<hr>
+<br>
+ <div>
+        <h1 class="G-head">Our Nail Gallery</h1>
+        <p class="G-intro">Every set tells a different story. 
+            Discover your next different look!
+        </p>
+    <div Class="Gallery">
+        <div class="large-pics">
+            <img src="Images/Salon/N p1.jpg">
+            <h3>Cherry Elegance</h3>
+        </div>
+
+        <div class="G-item">
+            <img src="Images/Salon/N p10.jpg">
+            <h3>Blush Romance</h3>
+        </div>
+
+        <div class="G-item">
+            <img src="Images/Salon/N p6.jpg">
+            <h3>Golden Touch</h3>
+        </div>
+
+        <div class="G-item">
+            <img src="Images/Salon/N p13.jpg">
+            <h3>Floral Dreams</h3>
+        </div>
+
+        <div class="large-pics">
+            <img src="Images/Salon/N p4.jpg">
+            <h3>Midnight Glamour</h3>
+        </div>
+
+        <div class="G-item">
+            <img src="Images/Salon/N p5.jpg">
+            <h3>Classic Beauty</h3>
+        </div>
+
+        <div class="G-item">
+            <img src="Images/Salon/N p9.jpg">
+            <h3>Ruby Elegance</h3>
+        </div>
+
+        <div class="large-pics">
+            <img src="Images/Salon/N p3.jpg">
+            <h3>Petal Dreams</h3>
+        </div>
+
+        <div class="G-item">
+            <img src="Images/Salon/N22.jpeg">
+            <h3>Pink Whisper</h3>
+        </div>
+
+        <div class="G-item">
+            <img src="Images/Salon/N p2.jpg">
+            <h3>Golden Spark</h3>
+        </div>
+
+        <div class="large-pics">
+            <img src="Images/Salon/N11.jpeg">
+            <h3>Midnight Rose</h3>
+        </div>
+    </div>
+        
+    </div>
+
+    <br>
+    <hr>
+    <br>
+
+        <div class="C-page">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you. 
+            Lets make your nails beautiful!</p>
+        
+            <section class="Contact">
+                <div class="Contact-info">
+                    <table class="Contact-detail">
+                        <tr>
+                            <th colspan="2">Get in Touch</th>
+                        </tr>
+                        <tr>
+                            <td>Location:</td>
+                            <td>Kabul, Afghanistan</td>
+                        </tr>
+                        <tr>
+                            <td>Phone:</td>
+                            <td>+930123456789</td>
+                        </tr>
+                        <tr>
+                            <td>E-Mail:</td>
+                            <td>hello@petaltiops.com</td>
+                        </tr>
+                    </table>
+                    <br>
+
+                    <table class="Op-hours">
+                        <h2>Opening Hours</h2>
+                        <tr>
+                            <th>Day</th>
+                            <th>Hours</th>
+                        </tr>
+                        <tr>
+                            <td>Satureday - Thursday</td>
+                            <td>09:00 AM - 06:00</td>
+                        </tr>
+                        <tr>
+                            <td>Friday</td>
+                            <td>Closed</td>
+                        </tr>
+                    </table>
+                </div>
+
+                <div class="contact-form">
+                    <h2>Book an Appointment</h2>
+
+                    <form>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        <br>
+                        <br>
+                        <label for="email">Email Address</label>  
+                        <input type="email" id="email" name="email" Placeholder="Enter your Email" required>
+                        <br>
+                        <br>
+                        <label for="service">Choose a service</label>
+                        <select id="service" name="service" required>
+                             <option value=" ">Select a Service</option>
+                             <option value="clasic">Classic Manicure</option>
+                             <option value="gel">Gel Nails</option>
+                             <option value="nail-art">Nail Art</option>
+                             <option value="spa">Spa Manicure</option> 
+                        </select>
+                        <br>
+                        <br>
+                        <label for="message">Your Message</label>
+                        <textarea name="message" id="message" rows="10" placeholder="Tell us what you need..."></textarea>
+                        <br>
+                        <br>
+                        <button type="submit">Send Request</button>
+                    </form>
+                </div>
+            </section>
+    </div>
+<br>
+<hr>
+<br>
+
+
         </main>
         <br>
         <br>
 <footer>
-    <section>
-        <h4>Contact Us</h4>
-        <pre>
-        📞 +93726183245678
-        📲 +93261749302647
-        📧 <a href="melto: Petaltips@gmail.com"></a>
-        </pre>
-    </section>
-     <Section>
-            <pre>
-                🕝 Saturday - Thursday
-                   08:00 AM - 08:00 PM
+    <div class="footer-C">
 
-                   Friday
-                   10:00 AM - 04:00 PM
-            </pre>
-        </Section>
-        <section>
-            <h5>Book Your Appointment</h5>
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>📞 +930123456789</p>
+            <p>📲 +93261749302647</p>
+            <p>📧 hello@petaltiops.com</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Opening Hours</h3>
+            <p>🕝 Saturday - Thursday:</p>
+            <p>09:00 AM - 06:00 PM</p>
+            <p>Friday: Closed</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Book Your Appointment</h3>
             <p>Get Your Perfect look by booking your appointment now.</p>
-            <button>Book Now 📆</button>
-        </section>
+            <a href="Contact.html"><button>Book Now 📆</button></a>
+        </div>
+
+    </div>
 </footer>
-    </body>
+
+</body>
 </html>
