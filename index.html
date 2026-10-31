@@ -6,20 +6,20 @@
         <meta charset="UTF8">
         <meta name="Keywords" content="Manicure, Pedicure, Nail, Nail paint, Beauty, ">
         <meta name="author" content="Diba Yosufi">
+        <meta name="width=device-width">
         <meta name="description" content="Petal Tips, a cozy nail studio where beauty, creativity, and relaxation come together...">
     <style>
         body{background-color: #651B2A; color: #E8BFB5;}
         .Navbar{justify-content: center; display: flex; gap: 50px; background-color: #50131f; padding: 15px 20px; }
         .Navbar a{color: #B99A93; text-decoration: none; font-size: 17px;}
         .btn{padding: 10px 20px; background-color: #D9A58F; color: #50131f; border-radius: 10px; }
-        .Arti{align-items: center; color: #E8BFB5;  display: flex; justify-content: space-between; gap: 30px; padding: 20px; margin-top: 40px;}
-        .Artist{width: 45%;}
-        .Artist h3{font-size: 30px;}
+        .Arti {align-items: center; color: #D9A58F; display: flex; padding: 50px; background-image: linear-gradient(rgba(30, 0, 8, 0.35),rgba(30, 0, 8, 0.35)), url("Images/Salon/Pic.png"); background-size: cover; background-position: center; background-repeat: no-repeat; border-radius: 15px; }        .Artist{width: 55%;}
+        .Artist h3{font-size: 30px; }
         .Artist h1{font-size: 60px; margin: 10 px 0;}
         .Artist p{font-size: 20px;}
-        .Arti img{width: auto; height: 450px; border-radius: 20px;}
         main{border: 3cm;}
         .main-text{text-align: center; }
+        .main-text img{border-radius: 15px; }
         button{background-color: #D9A58F; color:#651B2A; border: none; padding: 12px 24px; font-weight: bold; font-size: 17px; }
         .pic img{width: 400px; height: 400px;}
         header{font-size: 18px;}
@@ -28,13 +28,13 @@
         .About-text h1{font-size: 45px;}
         .About-text h2{font-size: 35px;}
         .About-text p{font-size: 23px;}
-        .about-image{width: auto; height: 550px; border-radius: 50px; display: flex; }
+        .about-image{width: auto; height: 550px; border-radius: 30px; display: flex; }
 
         .Services{text-align: center; padding: 50px;}
         .Services h1{font-size: 55px; }
         .intro{font-size: 18px; margin: 0 auto 40px; }
         .Container{display: flex; align-items: center; }
-        .card img{width: auto; height: 450px; padding: 15px; border-radius: 20px; }
+        .card img{width: auto; height: 450px; padding: 15px; border-radius: 30px; }
         .card h2{font-size: 27px; }
         .card p{font-size: 15px; }
         .card h3{font-size: 22px;}
@@ -46,10 +46,7 @@
         .Spa-text h3{font-size: 28px;}
         .Spa-text h4{font-size: 20px;}
 
-        .Gallery{text-align: center; padding: 50px; gap: 20px; display: grid; grid-template-columns: repeat(5, 1fr) ;}
-        .G-item{padding: 10px; border-radius: 15px; }
-        .G-item img{width: auto; height: 250px; border-radius: 10px; }
-        .G-item h3{font-size: 23px; text-align: center; }
+        .Gallery{text-align: center; padding: 50px; gap: 20px; display: grid; grid-template-columns: repeat(4, 1fr) ;}
         .large-pics{padding: 15px; border-radius: 20px; }
         .large-pics img{width: auto; height: 350px; border-radius: 25px; }
         .large-pics h3{font-size: 25px; margin: 20px 0 15px; text-align: center; }
@@ -72,26 +69,21 @@
 
 
         Footer{padding: 30px;}
-        .footer-C{display: flex; gap: 30px; }
+        .footer-C{display: flex; gap: 35px; }
         .footer-section{flex: 1; }
 
 
     </style>
     </head>
     <body>
-        <br>
         <nav class="Navbar">
             <a href="index.html">Home</a>
              <a href="Aboutus.html">About us</a>
             <a href="Servises.html">Services</a>
             <a href="Gallery.html">Gallery</a>
             <a href="Contact.html">Contact</a>
-           <a href="Contact.html" class="btn"><button> Book Appointment</button></a> 
+           <a href="Contact.html" class="btn" style="color: #50131f; ">Book Appointment</a> 
         </nav>
-        <br>
-        <br>
-        <br>
-       
         <article class="Arti">
              <div class="Artist">
         <h3>Welcome to</h3>
@@ -99,10 +91,9 @@
         <p>Pofesional nail care, beautiful designs, and relaxing treatments for your nails.</p>
         <br>
           <pre>
-                <a href="Contact.html"><button>📆 Book Now</button></a> <a href="Servises.html"><button>Our Services</button></a>
+                <a href="Contact.html"><button style="border-radius: 15px; ">📆 Book Now</button></a> <a href="Servises.html"><button style="border-radius: 15px; ">Our Services</button></a>
             </pre>
          </div>
-        <img src="Images/Salon/N A.jpg" alt="Nail Salon">
         </article>
   
         <header>
@@ -142,7 +133,7 @@ Sit back, relax, and let us give your nails a little extra love. </p>
                 every detail matters. We want every visit to leave
                 you feeling refreshed, confident, and inspired.</p>
 
-                <a href="Servises.html" ><button>Explore Our Services</button></a>
+                <a href="Servises.html" ><button style="border-radius: 15px;">Explore Our Services</button></a>
         </section>
         <section class="about-image">
                 <img src="Images/Salon/N A.jpg" alt="Nail Salon">
@@ -209,17 +200,17 @@ Sit back, relax, and let us give your nails a little extra love. </p>
             <h3>Cherry Elegance</h3>
         </div>
 
-        <div class="G-item">
+        <div class="large-pics">
             <img src="Images/Salon/N p10.jpg">
             <h3>Blush Romance</h3>
         </div>
 
-        <div class="G-item">
+        <div class="large-pics">
             <img src="Images/Salon/N p6.jpg">
             <h3>Golden Touch</h3>
         </div>
 
-        <div class="G-item">
+        <div class="large-pics">
             <img src="Images/Salon/N p13.jpg">
             <h3>Floral Dreams</h3>
         </div>
@@ -229,12 +220,12 @@ Sit back, relax, and let us give your nails a little extra love. </p>
             <h3>Midnight Glamour</h3>
         </div>
 
-        <div class="G-item">
+        <div class="large-pics">
             <img src="Images/Salon/N p5.jpg">
             <h3>Classic Beauty</h3>
         </div>
 
-        <div class="G-item">
+        <div class="large-pics">
             <img src="Images/Salon/N p9.jpg">
             <h3>Ruby Elegance</h3>
         </div>
@@ -244,12 +235,12 @@ Sit back, relax, and let us give your nails a little extra love. </p>
             <h3>Petal Dreams</h3>
         </div>
 
-        <div class="G-item">
+        <div class="large-pics">
             <img src="Images/Salon/N22.jpeg">
             <h3>Pink Whisper</h3>
         </div>
 
-        <div class="G-item">
+        <div class="large-pics">
             <img src="Images/Salon/N p2.jpg">
             <h3>Golden Spark</h3>
         </div>
@@ -335,21 +326,26 @@ Sit back, relax, and let us give your nails a little extra love. </p>
                         <textarea name="message" id="message" rows="10" placeholder="Tell us what you need..."></textarea>
                         <br>
                         <br>
-                        <button type="submit">Send Request</button>
+                        <button type="submit" style="background-color: #D9A58F;">Send Request</button>
                     </form>
                 </div>
             </section>
     </div>
 <br>
-<hr>
 <br>
 
 
         </main>
         <br>
+        <hr>
+        <hr>
         <br>
 <footer>
     <div class="footer-C">
+
+        <div class="footer-h1">
+            <h1>Petal Tips Nail & Spa</h1>
+        </div>
 
         <div class="footer-section">
             <h3>Contact Us</h3>
@@ -368,7 +364,7 @@ Sit back, relax, and let us give your nails a little extra love. </p>
         <div class="footer-section">
             <h3>Book Your Appointment</h3>
             <p>Get Your Perfect look by booking your appointment now.</p>
-            <a href="Contact.html"><button>Book Now 📆</button></a>
+            <a href="Contact.html"><button style="background-color: #D9A58F; border-radius: 15px;">Book Now 📆</button></a>
         </div>
 
     </div>
